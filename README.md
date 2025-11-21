@@ -11,7 +11,7 @@ It allows users to perform 4 tasks:
 -Summarize the text focusing on the specific topics with bullet points.
 -Topics:- Purpose, Key definitions, Eligibility, Obligations, Enforcement elements 
 
-####Extract Key Legislative Sections 
+#### Extract Key Legislative Sections 
 -Extract key sectioins from the text.
 -Sections:- Definitions, Obligations, Responsibilities, Eligibility, Payments / Entitlements, Penalties / Enforcement, Record-keeping / Reporting
 
