@@ -1,7 +1,7 @@
 # AI-Agent-performing-multiple-tasks-with-langchain
 
 ### Overview 
-This project implements a smart **Ai-powered Json report generation of an Act  ** using **LangChain**.
+This project implements a smart **Ai-powered Json report generation of an Act** using **LangChain**.
 It allows users to perform 4 tasks:
 
 #### Upload and extraction
@@ -9,11 +9,15 @@ It allows users to perform 4 tasks:
 
 #### Summarization
 -Summarize the text focusing on the specific topics with bullet points.
--Topics:- Purpose, Key definitions, Eligibility, Obligations, Enforcement elements 
+
+-Topics:
+Purpose, Key definitions, Eligibility, Obligations, Enforcement elements 
 
 #### Extract Key Legislative Sections 
 -Extract key sectioins from the text.
--Sections:- Definitions, Obligations, Responsibilities, Eligibility, Payments / Entitlements, Penalties / Enforcement, Record-keeping / Reporting
+
+-Sections:
+Definitions, Obligations, Responsibilities, Eligibility, Payments / Entitlements, Penalties / Enforcement, Record-keeping / Reporting
 
 #### Rule Checking 
 -Checks if the following rules are being passed.
