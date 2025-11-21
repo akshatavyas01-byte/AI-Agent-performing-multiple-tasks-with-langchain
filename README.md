@@ -114,8 +114,7 @@ Context:
 summary_prompt=PromptTemplate(template=summary_template)
 
 summary_chain=(
-    {"context": lambda x: x}
-    | summary_prompt
+     summary_prompt
     | llm_chat
     | JsonOutputParser()
 )
@@ -153,8 +152,7 @@ Context:
 KeyExtractions_prompt=PromptTemplate(template=KeyExtractions_template)
 
 KeyExtraction_chain=(
-    {'context': lambda x:x}
-    | KeyExtractions_prompt
+    KeyExtractions_prompt
     | llm_chat
     | JsonOutputParser()
 )
@@ -197,8 +195,7 @@ Act Context:
 RuleCheck_prompt=PromptTemplate(template=RuleCheck_template)
 
 RuleCheck_chain=(
-    {'Context': lambda x:x}
-    | RuleCheck_prompt
+    RuleCheck_prompt
     | llm_chat
     | JsonOutputParser()
 )
