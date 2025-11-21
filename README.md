@@ -39,8 +39,12 @@ It allows users to perform 4 tasks:
 
 ## Architecture
 PDF Document-> Extraction of text ->  Parallel Chains(Summary_chain, Key_Extraction_chain, Rule_Checking_chain) -> Json Report
+
+
 Summary_chain => prompt -> llm -> JsonOutputParser
+
 Key_Extraction_chain => prompt -> llm -> JsonOutputParser
+
 Rule_Checking_chain => prompt -> llm -> JsonOutputParser
 
 ```python
